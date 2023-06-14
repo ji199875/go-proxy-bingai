@@ -32,10 +32,6 @@ export const useChatStore = defineStore(
         label: 'Cloudflare',
       },
       {
-        baseUrl: 'https://sydney.vcanbb.chat',
-        label: 'Cloudflare2',
-      },
-      {
         baseUrl: location.origin,
         label: '本站',
       },
